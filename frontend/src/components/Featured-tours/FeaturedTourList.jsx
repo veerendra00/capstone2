@@ -13,7 +13,6 @@ const FeaturedTourList = () => {
     ${BASE_URL}/tours/search/getFeaturedTour`);
 
 
-
     return (
         <>
             {
