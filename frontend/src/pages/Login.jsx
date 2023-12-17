@@ -41,6 +41,8 @@ const Login = () => {
             })
 
             const result = await res.json()
+            console.log(result)
+            sessionStorage.setItem("token", result.token)
             if (!res.ok) alert(result.message)
 
 
